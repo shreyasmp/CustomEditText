@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomEditText">
+        <attr name="hideClearButton" format="boolean"/>
+        <attr name="inputValidationCheck" format="string"/>
+        <attr name="setErrorMessage" format="string"/>
+        <attr name="setMaxLength" format="integer"/>
+    </declare-styleable>
+</resources>

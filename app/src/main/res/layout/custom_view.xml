@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+        <TextView
+            android:id="@+id/error_red_line"
+            android:layout_width="3dp"
+            android:layout_height="50dp"
+            android:background="@color/error_textbox_indicator"
+            android:visibility="visible"
+            />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/error_red_line"
+            android:drawableEnd="@drawable/clear_button"
+            android:drawablePadding="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/address_box_text_field_text"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/error_message"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/inline_error_message_field_color"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/inline_error_message_color"
+        android:paddingStart="15dp"
+        android:paddingTop="15dp"
+        android:gravity="top|left"
+        android:visibility="visible"
+        />
+
+</LinearLayout>
